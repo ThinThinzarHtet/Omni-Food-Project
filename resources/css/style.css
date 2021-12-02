@@ -188,6 +188,12 @@ header {
 }
 
 
+/* ---------- Feature Section ---------- */
+
+.section-feature .long-para {
+    margin-bottom: 30px;
+}
+
 
 /* ---------- Meal Section ---------- */
 
@@ -210,14 +216,18 @@ header {
     margin: 0;
     width: 100%;
     overflow: hidden;
+    background-color: #000;
 }
 
 .meal-photo img {
+    opacity: 70%;
     width: 100%;
     height: auto;
     transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s, scale 0.5s;
 }
 
 .meal-photo img:hover {
     transform: scale(1.03);
+    opacity: 1;
 }
