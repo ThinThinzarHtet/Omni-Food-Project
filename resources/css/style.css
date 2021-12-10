@@ -269,6 +269,13 @@ header {
     display: block;
 }
 
+.sticky .mobile-nav-icon {
+    margin-top: 15px;
+}
+
+.sticky .mobile-nav-icon i {
+    font-size: 180%;   
+}
 
 
 
