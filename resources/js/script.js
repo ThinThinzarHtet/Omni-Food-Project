@@ -76,4 +76,16 @@ $(document).ready(function () {
     }, {
         offset:'50%'
     })
+
+    // Mobile nav
+    $('.js--mobile-nav-icon').click(function() {
+        $('.main-nav').slideToggle(200);
+        if ($('.js--mobile-nav-icon i').hasClass('fa-bars')) {
+            $('.js--mobile-nav-icon i').addClass('fa-times');
+            $('.js--mobile-nav-icon i').removeClass('fa-bars');
+        } else {
+            $('.js--mobile-nav-icon i').addClass('fa-bars');
+            $('.js--mobile-nav-icon i').removeClass('fa-times');
+        }
+    })
 });
