@@ -105,6 +105,10 @@
         margin-left: 0;
     }
 
+    .meal-photo img:hover {
+        transform: scale(1.08);
+    }
+
     h1 {
         font-size: 180%;
     }
